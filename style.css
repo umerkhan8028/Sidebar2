@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(3, 96, 96, 0.298);
+  background-color: rgba(22, 103, 103, 0.378);
 }
 .sidebar {
   position: fixed;
