@@ -1,0 +1,113 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(3, 96, 96, 0.298);
+}
+.sidebar {
+  position: fixed;
+  right: 02;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 75vh;
+  padding: 15px;
+  font-size: x-large;
+  background-color: #ffffff;
+  color: #000000ab;
+  transition: transform 0.3s ease;
+  border: 6px solid rgba(128, 128, 128, 0.242);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+div.heading {
+  color: rgba(0, 0, 0, 0.889);
+  font-weight: bold;
+}
+a {
+  color: #000000ab; /* Gray color for anchor tags */
+  text-decoration: none; /* Remove underline by default */
+  
+}
+
+a:hover {
+  background-color: rgb(38, 117, 253);
+  color: #ffffff; /* Change color on hover */
+  
+}
+
+ .main-content {
+  color: rgb(38, 117, 253);
+  font-weight: bold;
+  font-size: 62px;
+  font-stretch: expanded;
+  position: fixed;
+  top: 20%;
+  bottom: 40%;
+  left: 10%;
+  line-height: 3em;
+  padding-left: 5%;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border-left: 20px solid rgb(38, 117, 253);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.main {
+  color: black;
+  font-weight: bold;
+  font-size: 55px;
+  position: fixed;
+  line-height: 3em;
+  padding-left: 5%;
+  left: 10%;
+  top: 25%;
+  bottom: 30%;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border-left: 20px solid rgb(38, 117, 253);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.main2 {
+  color: black;
+  font-weight: bold;
+  font-size: 55px;
+  position: fixed;
+  line-height: 3em;
+  padding-left: 5%;
+  left: 10%;
+  top: 40%;
+  bottom: 30%;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border-left: 20px solid rgb(38, 117, 253);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
